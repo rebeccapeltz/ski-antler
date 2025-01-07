@@ -4,15 +4,7 @@ function Header() {
       <h1 className="font-medium text-xl">Ski Antler</h1>
       <div>
         <a
-          href="https://instagram.com/bluewaterdreamboat"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mr-4"
-        >
-          Instagram
-        </a>
-        <a
-          href="https://github.com/jimgartner"
+          href="https://github.com/rebeccapeltz/ski-antler"
           target="_blank"
           rel="noopener noreferrer"
         >
