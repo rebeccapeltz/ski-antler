@@ -1,11 +1,16 @@
 import PostCard from "../components/PostCard";
 import getPosts from "../helpers/getPosts";
+import Image from "next/image";
 
 export default function Home({ posts }) {
   return (
-   
     <div>
-            <img src="https://res.cloudinary.com/picturecloud7/image/upload/e_background_removal/e_replace_color:red/b_black/co_red,l_text:Arial_140_bold_stroke_70:SKI-ANTLER.COM/fl_layer_apply,g_south,y_600/ski-antler-crop.jpg" alt="antler"></img>
+      <Image
+        src="https://raw.githubusercontent.com/rebeccapeltz/ski-antler/refs/heads/main/public/ski-antler-crop.jpg"
+        alt="Ski Antler"
+        width={1000}
+        height={600}
+      />
 
       <h1 className="mt-24 mb-12 font-bold text-3xl">Latest Posts</h1>
       {posts.map((post) => (
